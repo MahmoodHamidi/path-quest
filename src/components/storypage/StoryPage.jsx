@@ -9,7 +9,7 @@ const StoryPage = () => {
   const params = useParams();
   const storyID = params.id;
   const result = params.result;
-  const {state} = useGlobalContext();
+  const { state } = useGlobalContext();
 
   const currentStory = storyData[state.language][storyID][result];
 
@@ -32,7 +32,6 @@ const StoryPage = () => {
 
   return (
     <div className="relative min-h-screen p-4">
-      
       <video
         autoPlay
         loop
