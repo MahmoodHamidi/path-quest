@@ -1,0 +1,1052 @@
+{
+  "en": {
+    "1": {
+      "id": 1,
+      "start": {
+        "text": "You wake up on an unknown island after a plane crash. Around you are dense forests and a wide sandy beach. What do you do?",
+        "options": [
+          { "text": "Head towards the forest", "next": "forest" },
+          { "text": "Go to the beach", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "You enter the dark forest. You hear strange animal sounds and feel like someone is watching you. What do you do?",
+        "options": [
+          { "text": "Follow the sound", "next": "followSound" },
+          { "text": "Move towards a light", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "You go to the beach and see a broken boat. The boat looks old but might be repairable. What do you do?",
+        "options": [
+          { "text": "Inspect the boat", "next": "boatInspection" },
+          { "text": "Look for shelter", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "The animal sounds lead you to a cave. The cave is dark and has a strange smell. What do you do?",
+        "options": [
+          { "text": "Enter the cave", "next": "cave" },
+          { "text": "Go back to the beach", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "You move towards the light and arrive at a small village. The villagers welcome you, but their behavior is a bit strange. What do you do?",
+        "options": [
+          { "text": "Enter the village", "next": "village" },
+          { "text": "Avoid the village", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "The boat is broken, but you find a map inside. The map points to a specific location on the island. What do you do?",
+        "options": [
+          { "text": "Follow the map", "next": "followMap" },
+          { "text": "Repair the boat", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "You find a small cave. Inside the cave, there is some food and water. It seems someone lived here before. What do you do?",
+        "options": [
+          { "text": "Stay in the cave", "next": "stayInCave" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "You enter the cave and find an ancient treasure. The treasure includes jewels and gold, but there is a warning on the wall: 'Whoever takes this treasure will be cursed.' What do you do?",
+        "options": [
+          { "text": "Take the treasure", "next": "takeTreasure" },
+          { "text": "Leave the cave", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "You enter the village, and the locals invite you to their home. They warn you about a dangerous creature in the forest. What do you do?",
+        "options": [
+          { "text": "Talk to them", "next": "talkToVillagers" },
+          { "text": "Escape the village", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "You avoid the village and reach a dense forest. The trees are tall and dark, and you hear wild animal sounds. What do you do?",
+        "options": [
+          { "text": "Enter the forest", "next": "deepForest" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "The map leads you to an ancient temple. The temple is full of strange symbols, and you feel like something is watching you. What do you do?",
+        "options": [
+          { "text": "Enter the temple", "next": "temple" },
+          { "text": "Go back and repair the boat", "next": "repairBoat" }
+        ]
+      },
+      "repairBoat": {
+        "text": "You repair the boat and are ready to leave. But before leaving, you must decide whether to leave the island or not. What do you do?",
+        "options": [
+          { "text": "Sail away with the boat", "next": "sailAway" },
+          { "text": "Stay on the island", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "You stay in the cave and spend the night safely. The next morning, you notice strange footprints around the cave. What do you do?",
+        "options": [
+          { "text": "Go to the beach", "next": "beach" },
+          { "text": "Return to the forest", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "You take the treasure and try to leave the cave. But the exit is blocked, and you hear a strange sound behind you. What do you do?",
+        "options": [
+          { "text": "Look for another exit", "next": "findAnotherExit" },
+          { "text": "Stay in the cave", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "You leave the cave and return to the beach. But you feel like something is following you. What do you do?",
+        "options": [
+          { "text": "Go to the beach", "next": "beach" },
+          { "text": "Return to the forest", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "The locals help you and invite you to their home. They tell stories about an ancient treasure and a curse. What do you do?",
+        "options": [
+          { "text": "Accept the invitation", "next": "acceptInvitation" },
+          { "text": "Decline the invitation", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "You escape the village and reach a dense forest. The trees are tall and dark, and you hear wild animal sounds. What do you do?",
+        "options": [
+          { "text": "Enter the forest", "next": "deepForest" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "You enter the dense forest and see a river. The river is raging, and crossing it seems dangerous. What do you do?",
+        "options": [
+          { "text": "Cross the river", "next": "crossRiver" },
+          { "text": "Stay in the forest", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "You enter the temple and see an ancient gate. The gate is full of strange symbols, and you feel like something is watching you. What do you do?",
+        "options": [
+          { "text": "Open the gate", "next": "openGate" },
+          { "text": "Leave the temple", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "You sail away with the boat and after a few days reach another island. The new island is full of natural resources, and you decide to start a new life there. After a few years, you become a powerful leader, and your story becomes a legend among the people. The story ends!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "You stay on the island and start a new life. After a few years, you become friends with the locals and become an important member of the community. You learn how to live in harmony with nature, and your story remains a legend on the island. The story ends!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "You find another exit and leave the cave. After leaving, you realize that the treasure you took is a sacred object. You decide to return it to the village, and the locals accept you as a hero. The story ends!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "You accept the invitation and become friends with the locals. After a few years, you become an important member of the community, and your story remains a legend in the village. You learn how to live in harmony with nature and live a happy life. The story ends!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "You decline the invitation and return to the ship. After returning to Earth, you tell the story of the island to others, but no one believes you. You decide to keep your story a secret and continue your normal life. The story ends!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "You cross the river and reach another village. The villagers welcome you, and you decide to start a new life there. After a few years, you become an important member of the community, and your story remains a legend in the village. The story ends!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "You stay in the forest and start a new life. After a few years, you learn how to live in harmony with nature and become a skilled hunter. Your story becomes a legend among the animals of the forest. The story ends!",
+        "options": []
+      },
+      "openGate": {
+        "text": "You open the gate and find a great treasure. The treasure includes jewels and gold, but you decide to share it with the villagers. After a few years, you become a hero, and your story remains a legend on the island. The story ends!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "You leave the temple and return to the beach. After returning, you decide to leave the island and return to Earth. Your story remains a great adventure in your memories. The story ends!",
+        "options": []
+      }
+    },
+    "2": {
+      "id": 2,
+      "start": {
+        "text": "You wake up on an unknown island after a plane crash. Around you are dense forests and a wide sandy beach. What do you do?",
+        "options": [
+          { "text": "Head towards the forest", "next": "forest" },
+          { "text": "Go to the beach", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "You enter the dark forest. You hear strange animal sounds and feel like someone is watching you. What do you do?",
+        "options": [
+          { "text": "Follow the sound", "next": "followSound" },
+          { "text": "Move towards a light", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "You go to the beach and see a broken boat. The boat looks old but might be repairable. What do you do?",
+        "options": [
+          { "text": "Inspect the boat", "next": "boatInspection" },
+          { "text": "Look for shelter", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "The animal sounds lead you to a cave. The cave is dark and has a strange smell. What do you do?",
+        "options": [
+          { "text": "Enter the cave", "next": "cave" },
+          { "text": "Go back to the beach", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "You move towards the light and arrive at a small village. The villagers welcome you, but their behavior is a bit strange. What do you do?",
+        "options": [
+          { "text": "Enter the village", "next": "village" },
+          { "text": "Avoid the village", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "The boat is broken, but you find a map inside. The map points to a specific location on the island. What do you do?",
+        "options": [
+          { "text": "Follow the map", "next": "followMap" },
+          { "text": "Repair the boat", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "You find a small cave. Inside the cave, there is some food and water. It seems someone lived here before. What do you do?",
+        "options": [
+          { "text": "Stay in the cave", "next": "stayInCave" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "You enter the cave and find an ancient treasure. The treasure includes jewels and gold, but there is a warning on the wall: 'Whoever takes this treasure will be cursed.' What do you do?",
+        "options": [
+          { "text": "Take the treasure", "next": "takeTreasure" },
+          { "text": "Leave the cave", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "You enter the village, and the locals invite you to their home. They warn you about a dangerous creature in the forest. What do you do?",
+        "options": [
+          { "text": "Talk to them", "next": "talkToVillagers" },
+          { "text": "Escape the village", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "You avoid the village and reach a dense forest. The trees are tall and dark, and you hear wild animal sounds. What do you do?",
+        "options": [
+          { "text": "Enter the forest", "next": "deepForest" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "The map leads you to an ancient temple. The temple is full of strange symbols, and you feel like something is watching you. What do you do?",
+        "options": [
+          { "text": "Enter the temple", "next": "temple" },
+          { "text": "Go back and repair the boat", "next": "repairBoat" }
+        ]
+      },
+      "repairBoat": {
+        "text": "You repair the boat and are ready to leave. But before leaving, you must decide whether to leave the island or not. What do you do?",
+        "options": [
+          { "text": "Sail away with the boat", "next": "sailAway" },
+          { "text": "Stay on the island", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "You stay in the cave and spend the night safely. The next morning, you notice strange footprints around the cave. What do you do?",
+        "options": [
+          { "text": "Go to the beach", "next": "beach" },
+          { "text": "Return to the forest", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "You take the treasure and try to leave the cave. But the exit is blocked, and you hear a strange sound behind you. What do you do?",
+        "options": [
+          { "text": "Look for another exit", "next": "findAnotherExit" },
+          { "text": "Stay in the cave", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "You leave the cave and return to the beach. But you feel like something is following you. What do you do?",
+        "options": [
+          { "text": "Go to the beach", "next": "beach" },
+          { "text": "Return to the forest", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "The locals help you and invite you to their home. They tell stories about an ancient treasure and a curse. What do you do?",
+        "options": [
+          { "text": "Accept the invitation", "next": "acceptInvitation" },
+          { "text": "Decline the invitation", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "You escape the village and reach a dense forest. The trees are tall and dark, and you hear wild animal sounds. What do you do?",
+        "options": [
+          { "text": "Enter the forest", "next": "deepForest" },
+          { "text": "Return to the beach", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "You enter the dense forest and see a river. The river is raging, and crossing it seems dangerous. What do you do?",
+        "options": [
+          { "text": "Cross the river", "next": "crossRiver" },
+          { "text": "Stay in the forest", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "You enter the temple and see an ancient gate. The gate is full of strange symbols, and you feel like something is watching you. What do you do?",
+        "options": [
+          { "text": "Open the gate", "next": "openGate" },
+          { "text": "Leave the temple", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "You sail away with the boat and after a few days reach another island. The new island is full of natural resources, and you decide to start a new life there. After a few years, you become a powerful leader, and your story becomes a legend among the people. The story ends!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "You stay on the island and start a new life. After a few years, you become friends with the locals and become an important member of the community. You learn how to live in harmony with nature, and your story remains a legend on the island. The story ends!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "You find another exit and leave the cave. After leaving, you realize that the treasure you took is a sacred object. You decide to return it to the village, and the locals accept you as a hero. The story ends!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "You accept the invitation and become friends with the locals. After a few years, you become an important member of the community, and your story remains a legend in the village. You learn how to live in harmony with nature and live a happy life. The story ends!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "You decline the invitation and return to the ship. After returning to Earth, you tell the story of the island to others, but no one believes you. You decide to keep your story a secret and continue your normal life. The story ends!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "You cross the river and reach another village. The villagers welcome you, and you decide to start a new life there. After a few years, you become an important member of the community, and your story remains a legend in the village. The story ends!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "You stay in the forest and start a new life. After a few years, you learn how to live in harmony with nature and become a skilled hunter. Your story becomes a legend among the animals of the forest. The story ends!",
+        "options": []
+      },
+      "openGate": {
+        "text": "You open the gate and find a great treasure. The treasure includes jewels and gold, but you decide to share it with the villagers. After a few years, you become a hero, and your story remains a legend on the island. The story ends!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "You leave the temple and return to the beach. After returning, you decide to leave the island and return to Earth. Your story remains a great adventure in your memories. The story ends!",
+        "options": []
+      }
+    }
+  },
+  "de": {
+    "1": {
+      "id": 1,
+      "start": {
+        "text": "Sie wachen auf einer unbekannten Insel nach einem Flugzeugabsturz auf. Um Sie herum sind dichte Wälder und ein weitläufiger Sandstrand. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie in den Wald", "next": "forest" },
+          { "text": "Gehen Sie zum Strand", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "Sie betreten den dunklen Wald. Sie hören seltsame Tiergeräusche und haben das Gefühl, dass Sie jemand beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Folgen Sie den Geräuschen", "next": "followSound" },
+          { "text": "Bewegen Sie sich auf ein Licht zu", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "Sie gehen zum Strand und sehen ein kaputtes Boot. Das Boot sieht alt aus, könnte aber repariert werden. Was tun Sie?",
+        "options": [
+          { "text": "Untersuchen Sie das Boot", "next": "boatInspection" },
+          { "text": "Suchen Sie nach einem Unterschlupf", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "Die Tiergeräusche führen Sie zu einer Höhle. Die Höhle ist dunkel und hat einen seltsamen Geruch. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie die Höhle", "next": "cave" },
+          { "text": "Gehen Sie zurück zum Strand", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "Sie bewegen sich auf das Licht zu und gelangen in ein kleines Dorf. Die Dorfbewohner begrüßen Sie, aber ihr Verhalten ist etwas seltsam. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie das Dorf", "next": "village" },
+          { "text": "Meiden Sie das Dorf", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "Das Boot ist kaputt, aber Sie finden eine Karte darin. Die Karte zeigt auf einen bestimmten Ort auf der Insel. Was tun Sie?",
+        "options": [
+          { "text": "Folgen Sie der Karte", "next": "followMap" },
+          { "text": "Reparieren Sie das Boot", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "Sie finden eine kleine Höhle. In der Höhle gibt es etwas Essen und Wasser. Es scheint, als hätte hier jemand gelebt. Was tun Sie?",
+        "options": [
+          { "text": "Bleiben Sie in der Höhle", "next": "stayInCave" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "Sie betreten die Höhle und finden einen alten Schatz. Der Schatz enthält Juwelen und Gold, aber an der Wand steht eine Warnung: 'Wer diesen Schatz nimmt, wird verflucht.' Was tun Sie?",
+        "options": [
+          { "text": "Nehmen Sie den Schatz", "next": "takeTreasure" },
+          { "text": "Verlassen Sie die Höhle", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "Sie betreten das Dorf, und die Einheimischen laden Sie in ihr Haus ein. Sie warnen Sie vor einer gefährlichen Kreatur im Wald. Was tun Sie?",
+        "options": [
+          { "text": "Sprechen Sie mit ihnen", "next": "talkToVillagers" },
+          { "text": "Fliehen Sie aus dem Dorf", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "Sie meiden das Dorf und gelangen in einen dichten Wald. Die Bäume sind hoch und dunkel, und Sie hören wilde Tiergeräusche. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Wald", "next": "deepForest" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "Die Karte führt Sie zu einem alten Tempel. Der Tempel ist voller seltsamer Symbole, und Sie haben das Gefühl, dass Sie etwas beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Tempel", "next": "temple" },
+          {
+            "text": "Kehren Sie zurück und reparieren Sie das Boot",
+            "next": "repairBoat"
+          }
+        ]
+      },
+      "repairBoat": {
+        "text": "Sie reparieren das Boot und sind bereit, abzureisen. Aber bevor Sie gehen, müssen Sie entscheiden, ob Sie die Insel verlassen wollen oder nicht. Was tun Sie?",
+        "options": [
+          { "text": "Segeln Sie mit dem Boot davon", "next": "sailAway" },
+          { "text": "Bleiben Sie auf der Insel", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "Sie bleiben in der Höhle und verbringen die Nacht sicher. Am nächsten Morgen bemerken Sie seltsame Fußspuren um die Höhle. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie zum Strand", "next": "beach" },
+          { "text": "Kehren Sie in den Wald zurück", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "Sie nehmen den Schatz und versuchen, die Höhle zu verlassen. Aber der Ausgang ist blockiert, und Sie hören ein seltsames Geräusch hinter sich. Was tun Sie?",
+        "options": [
+          {
+            "text": "Suchen Sie nach einem anderen Ausgang",
+            "next": "findAnotherExit"
+          },
+          { "text": "Bleiben Sie in der Höhle", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "Sie verlassen die Höhle und kehren zum Strand zurück. Aber Sie haben das Gefühl, dass Ihnen etwas folgt. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie zum Strand", "next": "beach" },
+          { "text": "Kehren Sie in den Wald zurück", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "Die Einheimischen helfen Ihnen und laden Sie in ihr Haus ein. Sie erzählen Geschichten über einen alten Schatz und einen Fluch. Was tun Sie?",
+        "options": [
+          { "text": "Nehmen Sie die Einladung an", "next": "acceptInvitation" },
+          { "text": "Lehnen Sie die Einladung ab", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "Sie fliehen aus dem Dorf und gelangen in einen dichten Wald. Die Bäume sind hoch und dunkel, und Sie hören wilde Tiergeräusche. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Wald", "next": "deepForest" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "Sie betreten den dichten Wald und sehen einen Fluss. Der Fluss ist reißend, und es scheint gefährlich, ihn zu überqueren. Was tun Sie?",
+        "options": [
+          { "text": "Überqueren Sie den Fluss", "next": "crossRiver" },
+          { "text": "Bleiben Sie im Wald", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "Sie betreten den Tempel und sehen ein altes Tor. Das Tor ist voller seltsamer Symbole, und Sie haben das Gefühl, dass Sie etwas beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Öffnen Sie das Tor", "next": "openGate" },
+          { "text": "Verlassen Sie den Tempel", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "Sie segeln mit dem Boot davon und erreichen nach einigen Tagen eine andere Insel. Die neue Insel ist reich an natürlichen Ressourcen, und Sie beschließen, dort ein neues Leben zu beginnen. Nach einigen Jahren werden Sie zu einem mächtigen Anführer, und Ihre Geschichte wird zu einer Legende unter den Menschen. Die Geschichte endet!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "Sie bleiben auf der Insel und beginnen ein neues Leben. Nach einigen Jahren freunden Sie sich mit den Einheimischen an und werden ein wichtiges Mitglied der Gemeinschaft. Sie lernen, wie man im Einklang mit der Natur lebt, und Ihre Geschichte bleibt eine Legende auf der Insel. Die Geschichte endet!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "Sie finden einen anderen Ausgang und verlassen die Höhle. Nachdem Sie die Höhle verlassen haben, stellen Sie fest, dass der Schatz, den Sie genommen haben, ein heiliges Objekt ist. Sie beschließen, es ins Dorf zurückzubringen, und die Einheimischen akzeptieren Sie als Helden. Die Geschichte endet!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "Sie nehmen die Einladung an und freunden sich mit den Einheimischen an. Nach einigen Jahren werden Sie ein wichtiges Mitglied der Gemeinschaft, und Ihre Geschichte bleibt eine Legende im Dorf. Sie lernen, wie man im Einklang mit der Natur lebt und ein glückliches Leben führt. Die Geschichte endet!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "Sie lehnen die Einladung ab und kehren zum Schiff zurück. Nach Ihrer Rückkehr auf die Erde erzählen Sie anderen die Geschichte der Insel, aber niemand glaubt Ihnen. Sie beschließen, Ihre Geschichte geheim zu halten und Ihr normales Leben fortzusetzen. Die Geschichte endet!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "Sie überqueren den Fluss und gelangen in ein anderes Dorf. Die Dorfbewohner begrüßen Sie, und Sie beschließen, dort ein neues Leben zu beginnen. Nach einigen Jahren werden Sie ein wichtiges Mitglied der Gemeinschaft, und Ihre Geschichte bleibt eine Legende im Dorf. Die Geschichte endet!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "Sie bleiben im Wald und beginnen ein neues Leben. Nach einigen Jahren lernen Sie, wie man im Einklang mit der Natur lebt, und werden zu einem geschickten Jäger. Ihre Geschichte wird zu einer Legende unter den Tieren des Waldes. Die Geschichte endet!",
+        "options": []
+      },
+      "openGate": {
+        "text": "Sie öffnen das Tor und finden einen großen Schatz. Der Schatz enthält Juwelen und Gold, aber Sie beschließen, ihn mit den Dorfbewohnern zu teilen. Nach einigen Jahren werden Sie zu einem Helden, und Ihre Geschichte bleibt eine Legende auf der Insel. Die Geschichte endet!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "Sie verlassen den Tempel und kehren zum Strand zurück. Nach Ihrer Rückkehr beschließen Sie, die Insel zu verlassen und zur Erde zurückzukehren. Ihre Geschichte bleibt ein großes Abenteuer in Ihren Erinnerungen. Die Geschichte endet!",
+        "options": []
+      }
+    },
+    "2": {
+      "id": 2,
+      "start": {
+        "text": "Sie wachen auf einer unbekannten Insel nach einem Flugzeugabsturz auf. Um Sie herum sind dichte Wälder und ein weitläufiger Sandstrand. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie in den Wald", "next": "forest" },
+          { "text": "Gehen Sie zum Strand", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "Sie betreten den dunklen Wald. Sie hören seltsame Tiergeräusche und haben das Gefühl, dass Sie jemand beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Folgen Sie den Geräuschen", "next": "followSound" },
+          { "text": "Bewegen Sie sich auf ein Licht zu", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "Sie gehen zum Strand und sehen ein kaputtes Boot. Das Boot sieht alt aus, könnte aber repariert werden. Was tun Sie?",
+        "options": [
+          { "text": "Untersuchen Sie das Boot", "next": "boatInspection" },
+          { "text": "Suchen Sie nach einem Unterschlupf", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "Die Tiergeräusche führen Sie zu einer Höhle. Die Höhle ist dunkel und hat einen seltsamen Geruch. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie die Höhle", "next": "cave" },
+          { "text": "Gehen Sie zurück zum Strand", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "Sie bewegen sich auf das Licht zu und gelangen in ein kleines Dorf. Die Dorfbewohner begrüßen Sie, aber ihr Verhalten ist etwas seltsam. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie das Dorf", "next": "village" },
+          { "text": "Meiden Sie das Dorf", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "Das Boot ist kaputt, aber Sie finden eine Karte darin. Die Karte zeigt auf einen bestimmten Ort auf der Insel. Was tun Sie?",
+        "options": [
+          { "text": "Folgen Sie der Karte", "next": "followMap" },
+          { "text": "Reparieren Sie das Boot", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "Sie finden eine kleine Höhle. In der Höhle gibt es etwas Essen und Wasser. Es scheint, als hätte hier jemand gelebt. Was tun Sie?",
+        "options": [
+          { "text": "Bleiben Sie in der Höhle", "next": "stayInCave" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "Sie betreten die Höhle und finden einen alten Schatz. Der Schatz enthält Juwelen und Gold, aber an der Wand steht eine Warnung: 'Wer diesen Schatz nimmt, wird verflucht.' Was tun Sie?",
+        "options": [
+          { "text": "Nehmen Sie den Schatz", "next": "takeTreasure" },
+          { "text": "Verlassen Sie die Höhle", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "Sie betreten das Dorf, und die Einheimischen laden Sie in ihr Haus ein. Sie warnen Sie vor einer gefährlichen Kreatur im Wald. Was tun Sie?",
+        "options": [
+          { "text": "Sprechen Sie mit ihnen", "next": "talkToVillagers" },
+          { "text": "Fliehen Sie aus dem Dorf", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "Sie meiden das Dorf und gelangen in einen dichten Wald. Die Bäume sind hoch und dunkel, und Sie hören wilde Tiergeräusche. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Wald", "next": "deepForest" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "Die Karte führt Sie zu einem alten Tempel. Der Tempel ist voller seltsamer Symbole, und Sie haben das Gefühl, dass Sie etwas beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Tempel", "next": "temple" },
+          {
+            "text": "Kehren Sie zurück und reparieren Sie das Boot",
+            "next": "repairBoat"
+          }
+        ]
+      },
+      "repairBoat": {
+        "text": "Sie reparieren das Boot und sind bereit, abzureisen. Aber bevor Sie gehen, müssen Sie entscheiden, ob Sie die Insel verlassen wollen oder nicht. Was tun Sie?",
+        "options": [
+          { "text": "Segeln Sie mit dem Boot davon", "next": "sailAway" },
+          { "text": "Bleiben Sie auf der Insel", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "Sie bleiben in der Höhle und verbringen die Nacht sicher. Am nächsten Morgen bemerken Sie seltsame Fußspuren um die Höhle. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie zum Strand", "next": "beach" },
+          { "text": "Kehren Sie in den Wald zurück", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "Sie nehmen den Schatz und versuchen, die Höhle zu verlassen. Aber der Ausgang ist blockiert, und Sie hören ein seltsames Geräusch hinter sich. Was tun Sie?",
+        "options": [
+          {
+            "text": "Suchen Sie nach einem anderen Ausgang",
+            "next": "findAnotherExit"
+          },
+          { "text": "Bleiben Sie in der Höhle", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "Sie verlassen die Höhle und kehren zum Strand zurück. Aber Sie haben das Gefühl, dass Ihnen etwas folgt. Was tun Sie?",
+        "options": [
+          { "text": "Gehen Sie zum Strand", "next": "beach" },
+          { "text": "Kehren Sie in den Wald zurück", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "Die Einheimischen helfen Ihnen und laden Sie in ihr Haus ein. Sie erzählen Geschichten über einen alten Schatz und einen Fluch. Was tun Sie?",
+        "options": [
+          { "text": "Nehmen Sie die Einladung an", "next": "acceptInvitation" },
+          { "text": "Lehnen Sie die Einladung ab", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "Sie fliehen aus dem Dorf und gelangen in einen dichten Wald. Die Bäume sind hoch und dunkel, und Sie hören wilde Tiergeräusche. Was tun Sie?",
+        "options": [
+          { "text": "Betreten Sie den Wald", "next": "deepForest" },
+          { "text": "Kehren Sie zum Strand zurück", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "Sie betreten den dichten Wald und sehen einen Fluss. Der Fluss ist reißend, und es scheint gefährlich, ihn zu überqueren. Was tun Sie?",
+        "options": [
+          { "text": "Überqueren Sie den Fluss", "next": "crossRiver" },
+          { "text": "Bleiben Sie im Wald", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "Sie betreten den Tempel und sehen ein altes Tor. Das Tor ist voller seltsamer Symbole, und Sie haben das Gefühl, dass Sie etwas beobachtet. Was tun Sie?",
+        "options": [
+          { "text": "Öffnen Sie das Tor", "next": "openGate" },
+          { "text": "Verlassen Sie den Tempel", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "Sie segeln mit dem Boot davon und erreichen nach einigen Tagen eine andere Insel. Die neue Insel ist reich an natürlichen Ressourcen, und Sie beschließen, dort ein neues Leben zu beginnen. Nach einigen Jahren werden Sie zu einem mächtigen Anführer, und Ihre Geschichte wird zu einer Legende unter den Menschen. Die Geschichte endet!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "Sie bleiben auf der Insel und beginnen ein neues Leben. Nach einigen Jahren freunden Sie sich mit den Einheimischen an und werden ein wichtiges Mitglied der Gemeinschaft. Sie lernen, wie man im Einklang mit der Natur lebt, und Ihre Geschichte bleibt eine Legende auf der Insel. Die Geschichte endet!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "Sie finden einen anderen Ausgang und verlassen die Höhle. Nachdem Sie die Höhle verlassen haben, stellen Sie fest, dass der Schatz, den Sie genommen haben, ein heiliges Objekt ist. Sie beschließen, es ins Dorf zurückzubringen, und die Einheimischen akzeptieren Sie als Helden. Die Geschichte endet!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "Sie nehmen die Einladung an und freunden sich mit den Einheimischen an. Nach einigen Jahren werden Sie ein wichtiges Mitglied der Gemeinschaft, und Ihre Geschichte bleibt eine Legende im Dorf. Sie lernen, wie man im Einklang mit der Natur lebt und ein glückliches Leben führt. Die Geschichte endet!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "Sie lehnen die Einladung ab und kehren zum Schiff zurück. Nach Ihrer Rückkehr auf die Erde erzählen Sie anderen die Geschichte der Insel, aber niemand glaubt Ihnen. Sie beschließen, Ihre Geschichte geheim zu halten und Ihr normales Leben fortzusetzen. Die Geschichte endet!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "Sie überqueren den Fluss und gelangen in ein anderes Dorf. Die Dorfbewohner begrüßen Sie, und Sie beschließen, dort ein neues Leben zu beginnen. Nach einigen Jahren werden Sie ein wichtiges Mitglied der Gemeinschaft, und Ihre Geschichte bleibt eine Legende im Dorf. Die Geschichte endet!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "Sie bleiben im Wald und beginnen ein neues Leben. Nach einigen Jahren lernen Sie, wie man im Einklang mit der Natur lebt, und werden zu einem geschickten Jäger. Ihre Geschichte wird zu einer Legende unter den Tieren des Waldes. Die Geschichte endet!",
+        "options": []
+      },
+      "openGate": {
+        "text": "Sie öffnen das Tor und finden einen großen Schatz. Der Schatz enthält Juwelen und Gold, aber Sie beschließen, ihn mit den Dorfbewohnern zu teilen. Nach einigen Jahren werden Sie zu einem Helden, und Ihre Geschichte bleibt eine Legende auf der Insel. Die Geschichte endet!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "Sie verlassen den Tempel und kehren zum Strand zurück. Nach Ihrer Rückkehr beschließen Sie, die Insel zu verlassen und zur Erde zurückzukehren. Ihre Geschichte bleibt ein großes Abenteuer in Ihren Erinnerungen. Die Geschichte endet!",
+        "options": []
+      }
+    }
+  },
+  "fa": {
+    "1": {
+      "id": 1,
+      "start": {
+        "text": "شما در یک جزیره ناشناخته پس از سقوط هواپیما بیدار می‌شوید. اطراف شما جنگل‌های انبوه و ساحل شنی گسترده‌ای است. چه می‌کنید؟",
+        "options": [
+          { "text": "به سمت جنگل حرکت کنید", "next": "forest" },
+          { "text": "به ساحل بروید", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "وارد جنگل تاریک می‌شوید. صدای حیوانات عجیبی می‌شنوید و احساس می‌کنید کسی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "به دنبال صدا بروید", "next": "followSound" },
+          { "text": "به سمت یک نور حرکت کنید", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "به ساحل می‌روید و یک قایق شکسته می‌بینید. قایق قدیمی به نظر می‌رسد، اما ممکن است قابل تعمیر باشد. چه می‌کنید؟",
+        "options": [
+          { "text": "قایق را بررسی کنید", "next": "boatInspection" },
+          { "text": "به دنبال سرپناه بگردید", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "صدای حیوانات شما را به یک غار هدایت می‌کند. داخل غار تاریک است و بوی عجیبی می‌دهد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد غار شوید", "next": "cave" },
+          { "text": "برگردید و به ساحل بروید", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "به سمت نور حرکت می‌کنید و به یک روستای کوچک می‌رسید. مردم روستا به شما خوش‌آمد می‌گویند، اما رفتارشان کمی عجیب است. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد روستا شوید", "next": "village" },
+          { "text": "از روستا دور شوید", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "قایق شکسته است، اما یک نقشه داخل آن پیدا می‌کنید. نقشه به یک مکان خاص در جزیره اشاره می‌کند. چه می‌کنید؟",
+        "options": [
+          { "text": "نقشه را دنبال کنید", "next": "followMap" },
+          { "text": "قایق را تعمیر کنید", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "یک غار کوچک پیدا می‌کنید. داخل غار مقداری غذا و آب وجود دارد. به نظر می‌رسد کسی قبلاً اینجا زندگی می‌کرده است. چه می‌کنید؟",
+        "options": [
+          { "text": "در غار بمانید", "next": "stayInCave" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "وارد غار می‌شوید و یک گنجینه قدیمی پیدا می‌کنید. گنجینه شامل جواهرات و طلاست، اما یک هشدار روی دیوار نوشته شده: 'هرکس این گنجینه را بردارد، نفرین می‌شود.' چه می‌کنید؟",
+        "options": [
+          { "text": "گنجینه را بردارید", "next": "takeTreasure" },
+          { "text": "غار را ترک کنید", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "وارد روستا می‌شوید و مردم محلی شما را به خانه‌شان دعوت می‌کنند. آنها درباره یک موجود خطرناک در جنگل هشدار می‌دهند. چه می‌کنید؟",
+        "options": [
+          { "text": "با آنها صحبت کنید", "next": "talkToVillagers" },
+          { "text": "از روستا فرار کنید", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "از روستا دور می‌شوید و به یک جنگل انبوه می‌رسید. درختان بلند و تاریک هستند و صدای حیوانات وحشی به گوش می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد جنگل شوید", "next": "deepForest" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "نقشه شما را به یک معبد قدیمی هدایت می‌کند. معبد پر از نمادهای عجیب و غریب است و احساس می‌کنید چیزی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد معبد شوید", "next": "temple" },
+          { "text": "برگردید و قایق را تعمیر کنید", "next": "repairBoat" }
+        ]
+      },
+      "repairBoat": {
+        "text": "قایق را تعمیر می‌کنید و آماده حرکت می‌شوید. اما قبل از حرکت، باید تصمیم بگیرید که آیا می‌خواهید جزیره را ترک کنید یا نه. چه می‌کنید؟",
+        "options": [
+          { "text": "با قایق به دریا بروید", "next": "sailAway" },
+          { "text": "در جزیره بمانید", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "در غار می‌مانید و شب را به سلامت سپری می‌کنید. صبح روز بعد، متوجه می‌شوید که ردپاهای عجیبی در اطراف غار وجود دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "به ساحل بروید", "next": "beach" },
+          { "text": "به جنگل بازگردید", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "گنجینه را برمی‌دارید و سعی می‌کنید از غار خارج شوید. اما راه خروج مسدود شده است و صدای عجیبی از پشت سرتان می‌شنوید. چه می‌کنید؟",
+        "options": [
+          { "text": "به دنبال راه دیگری بگردید", "next": "findAnotherExit" },
+          { "text": "در غار بمانید", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "غار را ترک می‌کنید و به ساحل بازمی‌گردید. اما احساس می‌کنید چیزی شما را دنبال می‌کند. چه می‌کنید؟",
+        "options": [
+          { "text": "به ساحل بروید", "next": "beach" },
+          { "text": "به جنگل بازگردید", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "مردم محلی به شما کمک می‌کنند و شما را به خانه‌شان دعوت می‌کنند. آنها داستان‌هایی درباره یک گنجینه قدیمی و یک نفرین تعریف می‌کنند. چه می‌کنید؟",
+        "options": [
+          { "text": "پذیرفتن دعوت", "next": "acceptInvitation" },
+          { "text": "رد کردن دعوت", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "از روستا فرار می‌کنید و به یک جنگل انبوه می‌رسید. درختان بلند و تاریک هستند و صدای حیوانات وحشی به گوش می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد جنگل شوید", "next": "deepForest" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "وارد جنگل انبوه می‌شوید و یک رودخانه می‌بینید. رودخانه خروشان است و عبور از آن خطرناک به نظر می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "از رودخانه عبور کنید", "next": "crossRiver" },
+          { "text": "در جنگل بمانید", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "وارد معبد می‌شوید و یک دروازه قدیمی می‌بینید. دروازه پر از نمادهای عجیب است و احساس می‌کنید چیزی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "دروازه را باز کنید", "next": "openGate" },
+          { "text": "معبد را ترک کنید", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "با قایق به دریا می‌روید و پس از چند روز به یک جزیره دیگر می‌رسید. جزیره جدید پر از منابع طبیعی است و شما تصمیم می‌گیرید در آنجا زندگی جدیدی را شروع کنید. پس از چند سال، شما به یک رهبر قدرتمند تبدیل می‌شوید و داستان شما به عنوان یک افسانه در میان مردم شناخته می‌شود. داستان به پایان رسید!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "در جزیره می‌مانید و زندگی جدیدی را شروع می‌کنید. پس از چند سال، شما با مردم محلی دوست می‌شوید و به یک عضو مهم در جامعه تبدیل می‌شوید. شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و داستان شما به عنوان یک افسانه در جزیره باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "راه دیگری پیدا می‌کنید و از غار خارج می‌شوید. پس از خروج، متوجه می‌شوید که گنجینه‌ای که برداشته‌اید، یک شیء مقدس بوده است. شما تصمیم می‌گیرید آن را به روستا بازگردانید و مردم محلی شما را به عنوان یک قهرمان می‌پذیرند. داستان به پایان رسید!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "دعوت را می‌پذیرید و با مردم محلی دوست می‌شوید. پس از چند سال، شما به یک عضو مهم در جامعه تبدیل می‌شوید و داستان شما به عنوان یک افسانه در روستا باقی می‌ماند. شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و زندگی شادی را سپری می‌کنید. داستان به پایان رسید!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "دعوت را رد می‌کنید و به سفینه بازمی‌گردید. پس از بازگشت به زمین، شما داستان جزیره را برای دیگران تعریف می‌کنید، اما هیچ‌کس حرف‌های شما را باور نمی‌کند. شما تصمیم می‌گیرید که داستان خود را به عنوان یک راز نگه دارید و زندگی عادی خود را ادامه دهید. داستان به پایان رسید!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "از رودخانه عبور می‌کنید و به یک روستای دیگر می‌رسید. مردم روستا به شما خوش‌آمد می‌گویند و شما تصمیم می‌گیرید در آنجا زندگی جدیدی را شروع کنید. پس از چند سال، شما به یک عضو مهم در جامعه تبدیل می‌شوید و داستان شما به عنوان یک افسانه در روستا باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "در جنگل می‌مانید و زندگی جدیدی را شروع می‌کنید. پس از چند سال، شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و به یک شکارچی ماهر تبدیل می‌شوید. داستان شما به عنوان یک افسانه در میان حیوانات جنگل شناخته می‌شود. داستان به پایان رسید!",
+        "options": []
+      },
+      "openGate": {
+        "text": "دروازه را باز می‌کنید و یک گنجینه بزرگ پیدا می‌کنید. گنجینه شامل جواهرات و طلاست، اما شما تصمیم می‌گیرید آن را با مردم روستا تقسیم کنید. پس از چند سال، شما به یک قهرمان تبدیل می‌شوید و داستان شما به عنوان یک افسانه در جزیره باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "معبد را ترک می‌کنید و به ساحل بازمی‌گردید. پس از بازگشت، شما تصمیم می‌گیرید که جزیره را ترک کنید و به زمین بازگردید. داستان شما به عنوان یک ماجراجویی بزرگ در خاطرات شما باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      }
+    },
+    "2": {
+      "id": 2,
+      "start": {
+        "text": "شما در یک جزیره ناشناخته پس از سقوط هواپیما بیدار می‌شوید. اطراف شما جنگل‌های انبوه و ساحل شنی گسترده‌ای است. چه می‌کنید؟",
+        "options": [
+          { "text": "به سمت جنگل حرکت کنید", "next": "forest" },
+          { "text": "به ساحل بروید", "next": "beach" }
+        ]
+      },
+      "forest": {
+        "text": "وارد جنگل تاریک می‌شوید. صدای حیوانات عجیبی می‌شنوید و احساس می‌کنید کسی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "به دنبال صدا بروید", "next": "followSound" },
+          { "text": "به سمت یک نور حرکت کنید", "next": "light" }
+        ]
+      },
+      "beach": {
+        "text": "به ساحل می‌روید و یک قایق شکسته می‌بینید. قایق قدیمی به نظر می‌رسد، اما ممکن است قابل تعمیر باشد. چه می‌کنید؟",
+        "options": [
+          { "text": "قایق را بررسی کنید", "next": "boatInspection" },
+          { "text": "به دنبال سرپناه بگردید", "next": "shelter" }
+        ]
+      },
+      "followSound": {
+        "text": "صدای حیوانات شما را به یک غار هدایت می‌کند. داخل غار تاریک است و بوی عجیبی می‌دهد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد غار شوید", "next": "cave" },
+          { "text": "برگردید و به ساحل بروید", "next": "beach" }
+        ]
+      },
+      "light": {
+        "text": "به سمت نور حرکت می‌کنید و به یک روستای کوچک می‌رسید. مردم روستا به شما خوش‌آمد می‌گویند، اما رفتارشان کمی عجیب است. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد روستا شوید", "next": "village" },
+          { "text": "از روستا دور شوید", "next": "avoidVillage" }
+        ]
+      },
+      "boatInspection": {
+        "text": "قایق شکسته است، اما یک نقشه داخل آن پیدا می‌کنید. نقشه به یک مکان خاص در جزیره اشاره می‌کند. چه می‌کنید؟",
+        "options": [
+          { "text": "نقشه را دنبال کنید", "next": "followMap" },
+          { "text": "قایق را تعمیر کنید", "next": "repairBoat" }
+        ]
+      },
+      "shelter": {
+        "text": "یک غار کوچک پیدا می‌کنید. داخل غار مقداری غذا و آب وجود دارد. به نظر می‌رسد کسی قبلاً اینجا زندگی می‌کرده است. چه می‌کنید؟",
+        "options": [
+          { "text": "در غار بمانید", "next": "stayInCave" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "cave": {
+        "text": "وارد غار می‌شوید و یک گنجینه قدیمی پیدا می‌کنید. گنجینه شامل جواهرات و طلاست، اما یک هشدار روی دیوار نوشته شده: 'هرکس این گنجینه را بردارد، نفرین می‌شود.' چه می‌کنید؟",
+        "options": [
+          { "text": "گنجینه را بردارید", "next": "takeTreasure" },
+          { "text": "غار را ترک کنید", "next": "leaveCave" }
+        ]
+      },
+      "village": {
+        "text": "وارد روستا می‌شوید و مردم محلی شما را به خانه‌شان دعوت می‌کنند. آنها درباره یک موجود خطرناک در جنگل هشدار می‌دهند. چه می‌کنید؟",
+        "options": [
+          { "text": "با آنها صحبت کنید", "next": "talkToVillagers" },
+          { "text": "از روستا فرار کنید", "next": "escapeVillage" }
+        ]
+      },
+      "avoidVillage": {
+        "text": "از روستا دور می‌شوید و به یک جنگل انبوه می‌رسید. درختان بلند و تاریک هستند و صدای حیوانات وحشی به گوش می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد جنگل شوید", "next": "deepForest" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "followMap": {
+        "text": "نقشه شما را به یک معبد قدیمی هدایت می‌کند. معبد پر از نمادهای عجیب و غریب است و احساس می‌کنید چیزی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد معبد شوید", "next": "temple" },
+          { "text": "برگردید و قایق را تعمیر کنید", "next": "repairBoat" }
+        ]
+      },
+      "repairBoat": {
+        "text": "قایق را تعمیر می‌کنید و آماده حرکت می‌شوید. اما قبل از حرکت، باید تصمیم بگیرید که آیا می‌خواهید جزیره را ترک کنید یا نه. چه می‌کنید؟",
+        "options": [
+          { "text": "با قایق به دریا بروید", "next": "sailAway" },
+          { "text": "در جزیره بمانید", "next": "stayOnIsland" }
+        ]
+      },
+      "stayInCave": {
+        "text": "در غار می‌مانید و شب را به سلامت سپری می‌کنید. صبح روز بعد، متوجه می‌شوید که ردپاهای عجیبی در اطراف غار وجود دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "به ساحل بروید", "next": "beach" },
+          { "text": "به جنگل بازگردید", "next": "forest" }
+        ]
+      },
+      "takeTreasure": {
+        "text": "گنجینه را برمی‌دارید و سعی می‌کنید از غار خارج شوید. اما راه خروج مسدود شده است و صدای عجیبی از پشت سرتان می‌شنوید. چه می‌کنید؟",
+        "options": [
+          { "text": "به دنبال راه دیگری بگردید", "next": "findAnotherExit" },
+          { "text": "در غار بمانید", "next": "stayInCave" }
+        ]
+      },
+      "leaveCave": {
+        "text": "غار را ترک می‌کنید و به ساحل بازمی‌گردید. اما احساس می‌کنید چیزی شما را دنبال می‌کند. چه می‌کنید؟",
+        "options": [
+          { "text": "به ساحل بروید", "next": "beach" },
+          { "text": "به جنگل بازگردید", "next": "forest" }
+        ]
+      },
+      "talkToVillagers": {
+        "text": "مردم محلی به شما کمک می‌کنند و شما را به خانه‌شان دعوت می‌کنند. آنها داستان‌هایی درباره یک گنجینه قدیمی و یک نفرین تعریف می‌کنند. چه می‌کنید؟",
+        "options": [
+          { "text": "پذیرفتن دعوت", "next": "acceptInvitation" },
+          { "text": "رد کردن دعوت", "next": "declineInvitation" }
+        ]
+      },
+      "escapeVillage": {
+        "text": "از روستا فرار می‌کنید و به یک جنگل انبوه می‌رسید. درختان بلند و تاریک هستند و صدای حیوانات وحشی به گوش می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "وارد جنگل شوید", "next": "deepForest" },
+          { "text": "به ساحل بازگردید", "next": "beach" }
+        ]
+      },
+      "deepForest": {
+        "text": "وارد جنگل انبوه می‌شوید و یک رودخانه می‌بینید. رودخانه خروشان است و عبور از آن خطرناک به نظر می‌رسد. چه می‌کنید؟",
+        "options": [
+          { "text": "از رودخانه عبور کنید", "next": "crossRiver" },
+          { "text": "در جنگل بمانید", "next": "stayInForest" }
+        ]
+      },
+      "temple": {
+        "text": "وارد معبد می‌شوید و یک دروازه قدیمی می‌بینید. دروازه پر از نمادهای عجیب است و احساس می‌کنید چیزی شما را زیر نظر دارد. چه می‌کنید؟",
+        "options": [
+          { "text": "دروازه را باز کنید", "next": "openGate" },
+          { "text": "معبد را ترک کنید", "next": "leaveTemple" }
+        ]
+      },
+      "sailAway": {
+        "text": "با قایق به دریا می‌روید و پس از چند روز به یک جزیره دیگر می‌رسید. جزیره جدید پر از منابع طبیعی است و شما تصمیم می‌گیرید در آنجا زندگی جدیدی را شروع کنید. پس از چند سال، شما به یک رهبر قدرتمند تبدیل می‌شوید و داستان شما به عنوان یک افسانه در میان مردم شناخته می‌شود. داستان به پایان رسید!",
+        "options": []
+      },
+      "stayOnIsland": {
+        "text": "در جزیره می‌مانید و زندگی جدیدی را شروع می‌کنید. پس از چند سال، شما با مردم محلی دوست می‌شوید و به یک عضو مهم در جامعه تبدیل می‌شوید. شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و داستان شما به عنوان یک افسانه در جزیره باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "findAnotherExit": {
+        "text": "راه دیگری پیدا می‌کنید و از غار خارج می‌شوید. پس از خروج، متوجه می‌شوید که گنجینه‌ای که برداشته‌اید، یک شیء مقدس بوده است. شما تصمیم می‌گیرید آن را به روستا بازگردانید و مردم محلی شما را به عنوان یک قهرمان می‌پذیرند. داستان به پایان رسید!",
+        "options": []
+      },
+      "acceptInvitation": {
+        "text": "دعوت را می‌پذیرید و با مردم محلی دوست می‌شوید. پس از چند سال، شما به یک عضو مهم در جامعه تبدیل می‌شوید و داستان شما به عنوان یک افسانه در روستا باقی می‌ماند. شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و زندگی شادی را سپری می‌کنید. داستان به پایان رسید!",
+        "options": []
+      },
+      "declineInvitation": {
+        "text": "دعوت را رد می‌کنید و به سفینه بازمی‌گردید. پس از بازگشت به زمین، شما داستان جزیره را برای دیگران تعریف می‌کنید، اما هیچ‌کس حرف‌های شما را باور نمی‌کند. شما تصمیم می‌گیرید که داستان خود را به عنوان یک راز نگه دارید و زندگی عادی خود را ادامه دهید. داستان به پایان رسید!",
+        "options": []
+      },
+      "crossRiver": {
+        "text": "از رودخانه عبور می‌کنید و به یک روستای دیگر می‌رسید. مردم روستا به شما خوش‌آمد می‌گویند و شما تصمیم می‌گیرید در آنجا زندگی جدیدی را شروع کنید. پس از چند سال، شما به یک عضو مهم در جامعه تبدیل می‌شوید و داستان شما به عنوان یک افسانه در روستا باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "stayInForest": {
+        "text": "در جنگل می‌مانید و زندگی جدیدی را شروع می‌کنید. پس از چند سال، شما یاد می‌گیرید که چگونه با طبیعت هماهنگ شوید و به یک شکارچی ماهر تبدیل می‌شوید. داستان شما به عنوان یک افسانه در میان حیوانات جنگل شناخته می‌شود. داستان به پایان رسید!",
+        "options": []
+      },
+      "openGate": {
+        "text": "دروازه را باز می‌کنید و یک گنجینه بزرگ پیدا می‌کنید. گنجینه شامل جواهرات و طلاست، اما شما تصمیم می‌گیرید آن را با مردم روستا تقسیم کنید. پس از چند سال، شما به یک قهرمان تبدیل می‌شوید و داستان شما به عنوان یک افسانه در جزیره باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      },
+      "leaveTemple": {
+        "text": "معبد را ترک می‌کنید و به ساحل بازمی‌گردید. پس از بازگشت، شما تصمیم می‌گیرید که جزیره را ترک کنید و به زمین بازگردید. داستان شما به عنوان یک ماجراجویی بزرگ در خاطرات شما باقی می‌ماند. داستان به پایان رسید!",
+        "options": []
+      }
+    }
+  }
+}
